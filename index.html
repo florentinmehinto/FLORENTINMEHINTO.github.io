@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEHINTO Florentin — Le livreur Russe</title>
+  <meta name="description" content="MEHINTO Florentin, connu sous le nom de Le livreur Russe, est étudiant en Russie et créateur de contenu. Conseils sur les études, visas étudiants, voyages et travail étudiant en Russie.">
+  <meta name="author" content="MEHINTO Florentin">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="MEHINTO Florentin — Le livreur Russe">
+  <meta property="og:description" content="Étudiant en Russie et créateur de contenu. Informations sur les études, visas, voyages et travail étudiant en Russie.">
+  <meta property="og:type" content="profile">
+  <meta property="og:image" content="photo-florentin.jpg">
+  <style>
+    :root {
+      --bg: #f5f7fa;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #5b6472;
+      --accent: #111827;
+      --border: #e5e7eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    .hero {
+      background: var(--accent);
+      color: white;
+      padding: 72px 20px 110px;
+      text-align: center;
+    }
+    .hero img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid white;
+      box-shadow: 0 12px 35px rgba(0,0,0,.25);
+    }
+    h1 { margin: 22px 0 4px; font-size: clamp(30px, 6vw, 52px); }
+    .tagline { font-size: 19px; opacity: .9; margin: 0; }
+    .container {
+      width: min(1000px, calc(100% - 32px));
+      margin: -55px auto 50px;
+      position: relative;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 34px;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 30px rgba(15,23,42,.06);
+    }
+    h2 { margin-top: 0; font-size: 28px; }
+    .intro { font-size: 18px; color: var(--muted); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .item {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+    }
+    .item h3 { margin: 0 0 7px; font-size: 18px; }
+    .item p { margin: 0; color: var(--muted); }
+    .cta {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      padding: 13px 22px;
+      border-radius: 999px;
+      font-weight: 700;
+      margin-top: 12px;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 0 20px 40px;
+      font-size: 14px;
+    }
+    @media (max-width: 650px) {
+      .grid { grid-template-columns: 1fr; }
+      .card { padding: 24px; }
+      .hero { padding-top: 50px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <img src="photo-florentin.jpg" alt="MEHINTO Florentin — Le livreur Russe">
+    <h1>MEHINTO Florentin</h1>
+    <p class="tagline">Le livreur Russe 🇷🇺</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>À propos de moi</h2>
+      <p class="intro">
+        Je suis <strong>MEHINTO Florentin</strong>, étudiant en Russie et créateur de contenu
+        connu sous le nom de <strong>Le livreur Russe</strong>. À travers mes contenus,
+        je partage mon expérience de la vie en Russie et des informations pratiques
+        pour les personnes qui souhaitent y étudier, voyager ou mieux comprendre
+        la vie des étudiants étrangers.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Ce que je partage</h2>
+      <div class="grid">
+        <article class="item">
+          <h3>🎓 Études en Russie</h3>
+          <p>Informations et conseils pratiques pour les étudiants qui envisagent de poursuivre leurs études en Russie.</p>
+        </article>
+        <article class="item">
+          <h3>🛂 Visa étudiant</h3>
+          <p>Conseils et retours d'expérience concernant les démarches et la préparation d'un projet d'études en Russie.</p>
+        </article>
+        <article class="item">
+          <h3>✈️ Voyage</h3>
+          <p>Conseils aux voyageurs et informations pratiques pour préparer un séjour en Russie.</p>
+        </article>
+        <article class="item">
+          <h3>💼 Travail étudiant</h3>
+          <p>Informations sur la vie professionnelle et les possibilités de travail pour les étudiants en Russie.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="card" style="text-align:center;">
+      <h2>Retrouve-moi sur TikTok</h2>
+      <p class="intro">Compte officiel : <strong>@heureux46</strong></p>
+      <a class="cta" href="https://www.tiktok.com/@heureux46" target="_blank" rel="noopener noreferrer">
+        Voir mon TikTok
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 MEHINTO Florentin — Le livreur Russe
+  </footer>
+</body>
+</html>
